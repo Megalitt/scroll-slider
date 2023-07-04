@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "Orchidea Pro Medium";
+  src: url("./font/Mint\ Type\ -\ Orchidea\ Pro\ Medium.otf") format("otf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  max-width: 1920px;
+}
+.App {
+  width: 100wh;
+}
+.header {
+  box-sizing: border-box;
+  height: 100px;
+  background: linear-gradient( #010101, #464341);
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 0 261px 0 262px;
+}
+.phone {
+  font-size: 24px;
+  color: #fff;
+}
+.phone-icon {
+  display: none;
+}
+.main {
+  max-width: 1588px;
+}
+.title-h2 {
+  text-transform: uppercase;
+  margin-top: 200px;
+  margin-left: 263px;
+  text-align: left;
+  font-size: 48px;
+  font-family: "Orchidea Pro Medium";
+  font-weight: 500;
+}
+.img-1 {
+  width: 860px;
+  height: 480px;
+  object-fit: cover;
+}
+.img-2 {
+  width: 599px;
+  height: 411px;
+  object-fit: cover;
+}
+.title-h4 {
+  font-size: 48px;
+  font-family: "Orchidea Pro Medium";
+  font-weight: 500;
+}
+.wrap {
+  margin-top: 123px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrap .text-wrap:nth-child(3) {
+  margin-left: 265px ;
+}
+.text-wrap {
+  max-width: 600px;
+  margin-left: 128px;
+}
+.text {
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+.slider {
+  position: relative;
+}
+.slider-h2 {
+  margin-top: 160px;
+}
+.photo {
+  box-sizing: inherit;
+  max-height: 489px;
+  margin-left: 264px;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.photo::-webkit-scrollbar {
+  display: none;
+}
+.slider-item {
+  width: 320px;
+}
+.slider-item:nth-child(n+2) {
+  margin-left: 40px;
+}
+.footer {
+  margin-top: 160px;
+  height: 200px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background: #141414;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.footer div {
+  margin-bottom: 18px;
+}
+
+
+
+@media (max-width: 400px) {
+  .header {
+    height: 60px;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+  }
+  .logo {
+    width: 118px;
+    height: 20px;
+  }
+  .phone {
+    display: none;
+  }
+  .phone-icon {
+    display: block;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-h2 {
+    font-size: 24px;
+    text-align: left;
+    width: 170px;
+    margin: 0;
+    margin-top: 72px;
+    margin-left: -170px;
+    line-height: 31px;
+  }
+  .wrap {
+    margin-top: 64px;
+  }
+  .img-1 {
+    width: 375px;
+    height: 370px;
+    object-fit: cover;
+  }
+  .img-2 {
+    width: 376px;
+    height: 360px;
+    object-fit: cover;
+  }
+  .wrap .text-wrap:nth-child(3) {
+    margin: 0;
+  }
+  .text-wrap {
+    margin: 40px 20px 0 20px;
+  }
+  .title-h4 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .text {
+    font-size: 14px;
+    text-align: left;
+  }
+  .slider-h2 {
+    margin: 70px 146px 0 20px;
+    text-align: left;
+    width: 209px;
+  }
+  .text-revers {
+    order: 2;
+  } 
+  .img-2-revers {
+    order: 1;
+  }
+  .photo {
+    margin: 56px 100px 0 20px;
+    height: 344px;
+    touch-action: auto;
+  }
+  .slider-item {
+    width: 225px;
+  }
+  .slider-item:nth-child(n+2) {
+    margin-left: 28px;
+  }
+  .footer {
+    margin-top: 80px;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
