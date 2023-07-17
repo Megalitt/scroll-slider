@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.acc6a604.css",
+    "main.js": "/static/js/main.938a6fa3.js",
+    "static/js/787.2afcbfd8.chunk.js": "/static/js/787.2afcbfd8.chunk.js",
+    "static/media/Mint Type - Orchidea Pro Medium.otf": "/static/media/Mint Type - Orchidea Pro Medium.39ec72ce6a2d24dc1a2a.otf",
+    "static/media/Group1.svg": "/static/media/Group1.0d5dbd64d913a7cc4ca4df1a2ca13f4e.svg",
+    "static/media/fluent_call-20-regular.svg": "/static/media/fluent_call-20-regular.b00351d10cd49a9c0bfdf34ce0601cea.svg",
+    "index.html": "/index.html",
+    "main.acc6a604.css.map": "/static/css/main.acc6a604.css.map",
+    "main.938a6fa3.js.map": "/static/js/main.938a6fa3.js.map",
+    "787.2afcbfd8.chunk.js.map": "/static/js/787.2afcbfd8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acc6a604.css",
+    "static/js/main.938a6fa3.js"
+  ]
+}
