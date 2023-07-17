@@ -3,6 +3,7 @@ import {data} from '..//data';
 
 
 const Slider = () => {
+  
   const sliderRef = useRef();
   let mous = 0;
   
