@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/scroll-slider/static/css/main.4c826d72.css",
+    "main.js": "/scroll-slider/static/js/main.2a3cf7ce.js",
+    "static/js/787.2afcbfd8.chunk.js": "/scroll-slider/static/js/787.2afcbfd8.chunk.js",
+    "static/media/Mint Type - Orchidea Pro Medium.otf": "/scroll-slider/static/media/Mint Type - Orchidea Pro Medium.39ec72ce6a2d24dc1a2a.otf",
+    "static/media/Group1.svg": "/scroll-slider/static/media/Group1.562c70eab4294b98c2c21e01c87d6ee7.svg",
+    "static/media/fluent_call-20-regular.svg": "/scroll-slider/static/media/fluent_call-20-regular.b3a0094e3d7103de7061276228190d12.svg",
+    "index.html": "/scroll-slider/index.html",
+    "main.4c826d72.css.map": "/scroll-slider/static/css/main.4c826d72.css.map",
+    "main.2a3cf7ce.js.map": "/scroll-slider/static/js/main.2a3cf7ce.js.map",
+    "787.2afcbfd8.chunk.js.map": "/scroll-slider/static/js/787.2afcbfd8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c826d72.css",
+    "static/js/main.2a3cf7ce.js"
+  ]
+}
