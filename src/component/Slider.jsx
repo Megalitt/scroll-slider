@@ -1,10 +1,14 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import {data} from '..//data';
 
 
 const Slider = () => {
   const sliderRef = useRef();
   let mous = 0;
+
+  useEffect(() => {
+    localStorage.clear()
+  }, [])
   
   document.addEventListener('wheel', (e) => {
     const scrolledY = window.scrollY;
