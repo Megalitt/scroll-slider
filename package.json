@@ -1,7 +1,7 @@
 {
   "name": "slider_test_react",
   "version": "0.1.0",
-  "homepage": "https://Megalit.github.io/scroll-slider",
+  "homepage": "https://Megalitt.github.io/scroll-slider",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
